@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 # Creates the makeCacheMatrix function
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -22,7 +19,7 @@ cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
   if(!is.null(inv)) {
     # writes the message
-    message("getting cached data")
+    message("Getting Cached Data")
     return(inv)
   }
   data <- x$get()
